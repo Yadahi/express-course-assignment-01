@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/product.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="product-page">
+      <header class="product-page__header">
+        <h1 class="product-page__title">Product Page</h1>
+      </header>
+      <main class="product-page__content">
+        <p class="product-page__description">Discover our featured product:</p>
+        <form action="/product" method="POST">
+          <div class="product-page__input-container">
+            <label for="product-input" class="product-page__label"
+              >Enter Product Code:</label
+            >
+            <input
+              type="text"
+              id="product-input"
+              name="title"
+              class="product-page__input"
+            />
+          </div>
+          <button type="submit">Add Product</button>
+        </form>
+      </main>
+      <footer class="product-page__footer">
+        <p class="product-page__copyright">&copy; 2024 Your Company</p>
+      </footer>
+    </div>
+  </body>
+</html>

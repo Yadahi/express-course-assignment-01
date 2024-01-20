@@ -1,0 +1,52 @@
+/* Reset some default styles */
+body,
+h1,
+p,
+label,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a box-sizing border-box model */
+* {
+  box-sizing: border-box;
+}
+
+/* Shared styles for both pages */
+.page {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.description {
+  font-size: 1.1rem;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+/* Main Page specific styles */
+.main-page {
+  border: 2px solid #ddd;
+  margin-bottom: 20px;
+}
